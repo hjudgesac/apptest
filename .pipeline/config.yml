@@ -12,7 +12,7 @@ stages:
   Acceptance:
     cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.us10.hana.ondemand.com"
-    cfOrg: "Adoption and Consumption COE_apps-wz-ad-test-hkdatm8h"
+    cfOrg: "dpeapps"
     cfSpace: "dev"
     cfAppName: "apptest"
     cfCredentialsId: "deploy-to-cf"
@@ -23,7 +23,7 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10.hana.ondemand.com"
-    cfOrg: "Adoption and Consumption COE_apps-wz-ad-test-hkdatm8h"
+    cfOrg: "dpeapps"
     cfSpace: "dev"
     cfAppName: "apptest"
     cfCredentialsId: "deploy-to-cf"
