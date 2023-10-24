@@ -1,0 +1,17 @@
+{
+    "_version": "",
+    "sap.cloud": {
+        "public": true,
+        "service": "apptest-service"
+    },
+    "sap.app": {
+        "id": "apptest-html5",
+        "type": "application",
+        "applicationVersion": {
+            "version": "0.0.1"
+        },
+        "title": "AppTestDevOps HTML5",
+        "description": "Business Application HTML5",
+        "offline": false
+    }
+}
