@@ -28,7 +28,7 @@ stages:
     cfAppName: "apptest"
     cfCredentialsId: "deploy-to-cf"
     deployType: "standard"
-    tmsUpload: false
+    tmsUpload: true
 steps:
   artifactPrepareVersion:
     versioningType: "cloud_noTag"
@@ -38,4 +38,4 @@ steps:
     mtaDeployParameters: "-f --version-rule ALL"
   tmsUpload:
     nodeName: "qa"
-    credentialsId: "tms-sk"
+    credentialsId: "ctms"
